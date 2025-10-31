@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: "Julius Sans One", sans-serif;
+
+}
+
+
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    color: black;
+    /* altera a cor de todos os links das páginas */
+}
+
+body {
+    background-color: #191A1B;
+    size: 150%;
+
+
+}
+section {
+  margin: 0 3vw 0 3vw;
+}
+
+
+
+header {
+    padding: 0vw 0vw 3vw 0vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 10rem;
+    padding-bottom: 20rem;
+    background-image: url(../src/banner\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 15px 13px 0 13px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    transition: background-color 0.6s ease;
+    transition: font-size 0.6s ease;
+}
+
+header nav ul li a:hover {
+    background-color: gray;
+    font-size: 1.8rem;
+}
+
+/* STYLE DE TUDO */
+
+section.referencias h1 {
+    font-size: 6rem;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: gray;
+}
+
+section.referencias h2 {
+    font-size: 4rem;
+    color: white;
+}
+
+section.referencias div.presono h3 {
+   font-size: 3rem;
+    color: white; 
+}
+
+section.referencias div.presono ul li {
+    padding-bottom: 2vw;
+}
+
+section.referencias div.presono ul li a {
+    font-size: 1.5rem;
+    color: darkcyan;
+    line-height: 1.4;
+    text-decoration: underline;
+}
+
+/* alimentação */
+
+section.referencias div.alimentacao h3 {
+   font-size: 3rem;
+    color: white; 
+}
+
+section.referencias div.alimentacao ul li {
+    padding-bottom: 2vw;
+}
+
+section.referencias div.alimentacao ul li a {
+    font-size: 1.5rem;
+    color: darkcyan;
+    line-height: 1.4;
+    text-decoration: underline;
+}
+
+/* beneficos e malificios */
+
+section.referencias div.bm h3 {
+   font-size: 3rem;
+    color: white; 
+}
+
+section.referencias div.bm ul li {
+    padding-bottom: 2vw;
+}
+
+section.referencias div.bm ul li a {
+    font-size: 1.5rem;
+    color: darkcyan;
+    line-height: 1.4;
+    text-decoration: underline;
+}
+
+/* saúde mental */
+
+
+section.referencias div.saude h3 {
+   font-size: 3rem;
+    color: white; 
+}
+
+section.referencias div.saude ul li {
+    padding-bottom: 2vw;
+}
+
+section.referencias div.saude ul li a {
+    font-size: 1.5rem;
+    color: darkcyan;
+    line-height: 1.4;
+    text-decoration: underline;
+}
+
+/* imagens */
+
+section.referencias div.fonte h3 {
+   font-size: 3rem;
+    color: white; 
+}
+
+section.referencias div.fonte ul li {
+    padding-bottom: 2vw;
+}
+
+section.referencias div.fonte ul li p {
+    font-size: 1.5rem;
+    color: darkcyan;
+    line-height: 1.4;
+    text-decoration: underline;
+}
+
+/* videas */
+
+section.referencias div.links h3 {
+   font-size: 3rem;
+    color: white; 
+}
+
+section.referencias div.links ul li {
+    padding-bottom: 2vw;
+}
+
+section.referencias div.links ul li a {
+    font-size: 1.5rem;
+    color: darkcyan;
+    line-height: 1.4;
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer div.geral {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  justify-content: space-between;
+}
+
+footer div.geral div.logo {
+  width: 30%;
+  
+}
+
+footer div.creators {
+  color: #F2F0FF;
+  font-weight: lighter;
+  font-size: 1.6rem;
+  
+  padding: 50px;
+}
+
+footer div.creators ul {
+  display: block;
+}
+
+footer div.creators ul li {
+  margin: 20px;
+  
+}
+
+footer div.creators ul li a {
+  color: gray;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  
+}
+
+footer div.creators ul li span img {
+  width: 3%;
+}
